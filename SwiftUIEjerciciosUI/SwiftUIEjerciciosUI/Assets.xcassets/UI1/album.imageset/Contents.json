@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "odisea-en-el-lodo-album@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "odisea-en-el-lodo-album@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "odisea-en-el-lodo-album@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
