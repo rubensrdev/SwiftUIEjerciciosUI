@@ -9,10 +9,22 @@ import SwiftUI
 
 struct Tiempo: View {
     var body: some View {
-        Text("Aplicación de Tiempo")
+		ZStack {
+			LinearGradient(colors: [.blue, .teal, .miAzulOscuro], startPoint: .topLeading, endPoint: .bottomTrailing)
+				.ignoresSafeArea()
+			VStack {
+				InfoActual()
+				Spacer()
+				PrevisionPorHoras()
+				Spacer()
+			}
+			.padding()
+		}
     }
 }
 
 #Preview {
     Tiempo()
 }
+
+

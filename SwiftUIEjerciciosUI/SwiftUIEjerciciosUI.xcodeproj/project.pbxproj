@@ -18,6 +18,9 @@
 		45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */; };
 		45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */; };
 		45EFD5042CD6AA38009FD14E /* Tiempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5032CD6AA38009FD14E /* Tiempo.swift */; };
+		45EFD5072CD6AD21009FD14E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5062CD6AD21009FD14E /* Fonts.swift */; };
+		45EFD5092CD6B3F1009FD14E /* InfoActual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5082CD6B3F1009FD14E /* InfoActual.swift */; };
+		45EFD50B2CD6B9C7009FD14E /* PrevisionPorHoras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD50A2CD6B9C7009FD14E /* PrevisionPorHoras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCancion.swift; sourceTree = "<group>"; };
 		45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSuperior.swift; sourceTree = "<group>"; };
 		45EFD5032CD6AA38009FD14E /* Tiempo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiempo.swift; sourceTree = "<group>"; };
+		45EFD5062CD6AD21009FD14E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		45EFD5082CD6B3F1009FD14E /* InfoActual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoActual.swift; sourceTree = "<group>"; };
+		45EFD50A2CD6B9C7009FD14E /* PrevisionPorHoras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevisionPorHoras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,20 @@
 		45EFD5022CD6AA2B009FD14E /* UI2 */ = {
 			isa = PBXGroup;
 			children = (
+				45EFD5052CD6AD13009FD14E /* Styles */,
+				45EFD50A2CD6B9C7009FD14E /* PrevisionPorHoras.swift */,
+				45EFD5082CD6B3F1009FD14E /* InfoActual.swift */,
 				45EFD5032CD6AA38009FD14E /* Tiempo.swift */,
 			);
 			path = UI2;
+			sourceTree = "<group>";
+		};
+		45EFD5052CD6AD13009FD14E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD5062CD6AD21009FD14E /* Fonts.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +200,12 @@
 				45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */,
 				45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */,
 				45EFD4F32CD6A30C009FD14E /* Home.swift in Sources */,
+				45EFD5072CD6AD21009FD14E /* Fonts.swift in Sources */,
+				45EFD50B2CD6B9C7009FD14E /* PrevisionPorHoras.swift in Sources */,
 				45EFD4FD2CD6A4EE009FD14E /* CaratulaAlbum.swift in Sources */,
 				45EFD4EF2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift in Sources */,
 				45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */,
+				45EFD5092CD6B3F1009FD14E /* InfoActual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
