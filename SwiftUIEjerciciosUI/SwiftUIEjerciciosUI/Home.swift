@@ -9,7 +9,18 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Image(systemName: "arrow.up.forward.bottomleading.rectangle")
+				.imageScale(.large)
+				.tint(.black)
+			Text("Hola mundo!")
+				.font(.title2)
+				.bold()
+			Text("Comenzamos...")
+				.font(.subheadline)
+				.bold()
+		}
+		.padding()
     }
 }
 
