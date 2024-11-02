@@ -12,6 +12,11 @@
 		45EFD4F02CD6A2F7009FD14E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */; };
 		45EFD4F12CD6A2F7009FD14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */; };
 		45EFD4F32CD6A30C009FD14E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4F22CD6A30C009FD14E /* Home.swift */; };
+		45EFD4F92CD6A4C3009FD14E /* Reproductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4F82CD6A4C3009FD14E /* Reproductor.swift */; };
+		45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FA2CD6A4DD009FD14E /* Botonera.swift */; };
+		45EFD4FD2CD6A4EE009FD14E /* CaratulaAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FC2CD6A4EE009FD14E /* CaratulaAlbum.swift */; };
+		45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */; };
+		45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		45EFD4EB2CD6A2F7009FD14E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45EFD4EC2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEjerciciosUIApp.swift; sourceTree = "<group>"; };
 		45EFD4F22CD6A30C009FD14E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		45EFD4F82CD6A4C3009FD14E /* Reproductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reproductor.swift; sourceTree = "<group>"; };
+		45EFD4FA2CD6A4DD009FD14E /* Botonera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botonera.swift; sourceTree = "<group>"; };
+		45EFD4FC2CD6A4EE009FD14E /* CaratulaAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaratulaAlbum.swift; sourceTree = "<group>"; };
+		45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCancion.swift; sourceTree = "<group>"; };
+		45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSuperior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 		45EFD4ED2CD6A2F7009FD14E /* SwiftUIEjerciciosUI */ = {
 			isa = PBXGroup;
 			children = (
+				45EFD4F72CD6A4B7009FD14E /* UI1 */,
 				45EFD4E92CD6A2F7009FD14E /* Preview Content */,
 				45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */,
 				45EFD4EB2CD6A2F7009FD14E /* ContentView.swift */,
@@ -68,6 +79,18 @@
 				45EFD4EC2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift */,
 			);
 			path = SwiftUIEjerciciosUI;
+			sourceTree = "<group>";
+		};
+		45EFD4F72CD6A4B7009FD14E /* UI1 */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD4F82CD6A4C3009FD14E /* Reproductor.swift */,
+				45EFD4FA2CD6A4DD009FD14E /* Botonera.swift */,
+				45EFD4FC2CD6A4EE009FD14E /* CaratulaAlbum.swift */,
+				45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */,
+				45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */,
+			);
+			path = UI1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				45EFD4EE2CD6A2F7009FD14E /* ContentView.swift in Sources */,
+				45EFD4F92CD6A4C3009FD14E /* Reproductor.swift in Sources */,
+				45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */,
+				45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */,
 				45EFD4F32CD6A30C009FD14E /* Home.swift in Sources */,
+				45EFD4FD2CD6A4EE009FD14E /* CaratulaAlbum.swift in Sources */,
 				45EFD4EF2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift in Sources */,
+				45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

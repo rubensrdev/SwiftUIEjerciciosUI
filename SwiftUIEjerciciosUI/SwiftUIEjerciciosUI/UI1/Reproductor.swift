@@ -9,7 +9,23 @@ import SwiftUI
 
 struct Reproductor: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		ZStack {
+			LinearGradient(colors: [.orange, .red, .black], startPoint: .top, endPoint: .bottom)
+				.overlay {
+					Color.black.opacity(0.1)
+				}
+				.ignoresSafeArea()
+			VStack {
+				NavegacionSuperior()
+				Spacer()
+				CaratulaAlbum()
+				Spacer()
+				InfoCancion()
+				Spacer()
+				Botonera()
+			}
+			.padding()
+		}
     }
 }
 

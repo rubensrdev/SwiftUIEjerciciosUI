@@ -9,7 +9,12 @@ import SwiftUI
 
 struct CaratulaAlbum: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		Image(.album)
+			.resizable()
+			.scaledToFit()
+			.clipShape(RoundedRectangle(cornerRadius: 10))
+			.shadow(color: .black.opacity(0.3), radius: 10)
+			.padding([.top, .bottom], 30)
     }
 }
 

@@ -9,7 +9,33 @@ import SwiftUI
 
 struct NavegacionSuperior: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		HStack {
+			Button {
+				print("Ocultar vista de canción...")
+			} label: {
+				Image(systemName: "chevron.down")
+					.resizable()
+					.scaledToFit()
+					.foregroundStyle(.white)
+					.padding(.leading)
+					.frame(maxWidth: 50)
+			}
+			Spacer()
+			Text("2001 Odisea en el lodo")
+				.fontWeight(.bold)
+				.foregroundStyle(.white)
+			Spacer()
+			Button {
+				print("Opciones")
+			} label: {
+				Image(systemName: "ellipsis")
+					.resizable()
+					.scaledToFit()
+					.foregroundStyle(.white)
+					.padding(.leading)
+					.frame(maxWidth: 50)
+			}
+		}
     }
 }
 
