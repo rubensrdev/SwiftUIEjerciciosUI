@@ -14,6 +14,10 @@ struct ContentView: View {
 				.tabItem {
 					Label("Home", systemImage: "house")
 				}
+			Reproductor()
+				.tabItem {
+					Label("Reproductor", systemImage: "play.circle.fill")
+				}
 		}
     }
 }
