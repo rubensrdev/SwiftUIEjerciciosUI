@@ -17,6 +17,7 @@
 		45EFD4FD2CD6A4EE009FD14E /* CaratulaAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FC2CD6A4EE009FD14E /* CaratulaAlbum.swift */; };
 		45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */; };
 		45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */; };
+		45EFD5042CD6AA38009FD14E /* Tiempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5032CD6AA38009FD14E /* Tiempo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		45EFD4FC2CD6A4EE009FD14E /* CaratulaAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaratulaAlbum.swift; sourceTree = "<group>"; };
 		45EFD4FE2CD6A4F8009FD14E /* InfoCancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCancion.swift; sourceTree = "<group>"; };
 		45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSuperior.swift; sourceTree = "<group>"; };
+		45EFD5032CD6AA38009FD14E /* Tiempo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiempo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		45EFD4ED2CD6A2F7009FD14E /* SwiftUIEjerciciosUI */ = {
 			isa = PBXGroup;
 			children = (
+				45EFD5022CD6AA2B009FD14E /* UI2 */,
 				45EFD4F72CD6A4B7009FD14E /* UI1 */,
 				45EFD4E92CD6A2F7009FD14E /* Preview Content */,
 				45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */,
@@ -91,6 +94,14 @@
 				45EFD5002CD6A513009FD14E /* NavegacionSuperior.swift */,
 			);
 			path = UI1;
+			sourceTree = "<group>";
+		};
+		45EFD5022CD6AA2B009FD14E /* UI2 */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD5032CD6AA38009FD14E /* Tiempo.swift */,
+			);
+			path = UI2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45EFD4EE2CD6A2F7009FD14E /* ContentView.swift in Sources */,
+				45EFD5042CD6AA38009FD14E /* Tiempo.swift in Sources */,
 				45EFD4F92CD6A4C3009FD14E /* Reproductor.swift in Sources */,
 				45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */,
 				45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */,
