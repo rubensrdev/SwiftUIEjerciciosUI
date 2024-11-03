@@ -16,14 +16,14 @@ struct ListadoPrevisionDias: View {
 				Image(systemName: "\(dia.icono)")
 					.foregroundStyle(.white)
 				Spacer()
-				Text(dia.temperaturaMinima)
+				Text("\(dia.temperaturaMinima) º")
 					.foregroundStyle(.white)
 				Spacer()
 				LinearGradient(colors: [.green, .yellow], startPoint: .leading, endPoint: .trailing)
 					.frame(maxWidth: 80, maxHeight: 5)
 					.cornerRadius(10)
 				Spacer()
-				Text(dia.temperaturaMaxima)
+				Text("\(dia.temperaturaMaxima) º")
 					.foregroundStyle(.white)
 				
 			}

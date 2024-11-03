@@ -24,7 +24,7 @@ struct ContentView: View {
 				}
 			ListaDeTareas()
 				.tabItem {
-					Label("Tareas", systemImage: "list.bullet.rectangle")
+					Label("Lista de Tareas", systemImage: "list.bullet.rectangle")
 				}
 		}
 		.tint(.black)
