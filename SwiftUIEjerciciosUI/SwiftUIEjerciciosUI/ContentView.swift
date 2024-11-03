@@ -18,7 +18,12 @@ struct ContentView: View {
 				.tabItem {
 					Label("Reproductor", systemImage: "play.circle.fill")
 				}
+			Tiempo()
+				.tabItem {
+					Label("Tiempo", systemImage: "degreesign.celsius")
+				}
 		}
+		.tint(.black)
     }
 }
 

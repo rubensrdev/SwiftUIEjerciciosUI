@@ -17,6 +17,7 @@ struct Tiempo: View {
 				Spacer()
 				PrevisionPorHoras()
 				Spacer()
+				PrevisionPorDias()
 			}
 			.padding()
 		}
@@ -26,5 +27,3 @@ struct Tiempo: View {
 #Preview {
     Tiempo()
 }
-
-
