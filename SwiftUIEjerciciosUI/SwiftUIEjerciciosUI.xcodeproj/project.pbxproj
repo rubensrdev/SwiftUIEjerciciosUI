@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4558F71B2CD7EB0800E87F2E /* MainManu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F71A2CD7EB0800E87F2E /* MainManu.swift */; };
+		4558F71D2CD7EED400E87F2E /* CeldaTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F71C2CD7EED400E87F2E /* CeldaTarea.swift */; };
+		4558F71F2CD7EF2500E87F2E /* Tareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F71E2CD7EF2500E87F2E /* Tareas.swift */; };
+		4558F7212CD7EFF800E87F2E /* GradientStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7202CD7EFF800E87F2E /* GradientStyles.swift */; };
+		4558F7232CD7F46D00E87F2E /* CapsulaImportante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7222CD7F46D00E87F2E /* CapsulaImportante.swift */; };
+		4558F7252CD7F49700E87F2E /* InformacionTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7242CD7F49700E87F2E /* InformacionTarea.swift */; };
 		45EFD4EE2CD6A2F7009FD14E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4EB2CD6A2F7009FD14E /* ContentView.swift */; };
 		45EFD4EF2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4EC2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift */; };
 		45EFD4F02CD6A2F7009FD14E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */; };
@@ -24,9 +30,20 @@
 		45EFD50E2CD6BA87009FD14E /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD50D2CD6BA87009FD14E /* Datos.swift */; };
 		45EFD5102CD78A26009FD14E /* PrevisionPorDias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD50F2CD78A26009FD14E /* PrevisionPorDias.swift */; };
 		45EFD5122CD78BA4009FD14E /* ListadoPrevisionDias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5112CD78BA4009FD14E /* ListadoPrevisionDias.swift */; };
+		45EFD5152CD78FA9009FD14E /* ListaDeTareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5142CD78FA9009FD14E /* ListaDeTareas.swift */; };
+		45EFD5182CD792DB009FD14E /* DatosTareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5172CD792DB009FD14E /* DatosTareas.swift */; };
+		45EFD51A2CD7DF3F009FD14E /* TareaDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD5192CD7DF3F009FD14E /* TareaDetalle.swift */; };
+		45EFD51D2CD7DFA8009FD14E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD51C2CD7DFA8009FD14E /* PreviewData.swift */; };
+		45EFD5202CD7E2B9009FD14E /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD51F2CD7E2B9009FD14E /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4558F71A2CD7EB0800E87F2E /* MainManu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainManu.swift; sourceTree = "<group>"; };
+		4558F71C2CD7EED400E87F2E /* CeldaTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTarea.swift; sourceTree = "<group>"; };
+		4558F71E2CD7EF2500E87F2E /* Tareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tareas.swift; sourceTree = "<group>"; };
+		4558F7202CD7EFF800E87F2E /* GradientStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStyles.swift; sourceTree = "<group>"; };
+		4558F7222CD7F46D00E87F2E /* CapsulaImportante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulaImportante.swift; sourceTree = "<group>"; };
+		4558F7242CD7F49700E87F2E /* InformacionTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionTarea.swift; sourceTree = "<group>"; };
 		45EFD4D32CD6A201009FD14E /* SwiftUIEjerciciosUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEjerciciosUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +62,11 @@
 		45EFD50D2CD6BA87009FD14E /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		45EFD50F2CD78A26009FD14E /* PrevisionPorDias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevisionPorDias.swift; sourceTree = "<group>"; };
 		45EFD5112CD78BA4009FD14E /* ListadoPrevisionDias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoPrevisionDias.swift; sourceTree = "<group>"; };
+		45EFD5142CD78FA9009FD14E /* ListaDeTareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeTareas.swift; sourceTree = "<group>"; };
+		45EFD5172CD792DB009FD14E /* DatosTareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosTareas.swift; sourceTree = "<group>"; };
+		45EFD5192CD7DF3F009FD14E /* TareaDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaDetalle.swift; sourceTree = "<group>"; };
+		45EFD51C2CD7DFA8009FD14E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		45EFD51F2CD7E2B9009FD14E /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */,
+				45EFD51C2CD7DFA8009FD14E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,6 +108,7 @@
 		45EFD4ED2CD6A2F7009FD14E /* SwiftUIEjerciciosUI */ = {
 			isa = PBXGroup;
 			children = (
+				45EFD5132CD78E9D009FD14E /* UI3 */,
 				45EFD5022CD6AA2B009FD14E /* UI2 */,
 				45EFD4F72CD6A4B7009FD14E /* UI1 */,
 				45EFD4E92CD6A2F7009FD14E /* Preview Content */,
@@ -136,6 +160,39 @@
 				45EFD50D2CD6BA87009FD14E /* Datos.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		45EFD5132CD78E9D009FD14E /* UI3 */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD5162CD792C6009FD14E /* Model */,
+				45EFD51E2CD7E2A3009FD14E /* Styles */,
+				45EFD5142CD78FA9009FD14E /* ListaDeTareas.swift */,
+				4558F7242CD7F49700E87F2E /* InformacionTarea.swift */,
+				4558F7222CD7F46D00E87F2E /* CapsulaImportante.swift */,
+				4558F71E2CD7EF2500E87F2E /* Tareas.swift */,
+				4558F71C2CD7EED400E87F2E /* CeldaTarea.swift */,
+				4558F71A2CD7EB0800E87F2E /* MainManu.swift */,
+				45EFD5192CD7DF3F009FD14E /* TareaDetalle.swift */,
+			);
+			path = UI3;
+			sourceTree = "<group>";
+		};
+		45EFD5162CD792C6009FD14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD5172CD792DB009FD14E /* DatosTareas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45EFD51E2CD7E2A3009FD14E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				45EFD51F2CD7E2B9009FD14E /* ButtonStyles.swift */,
+				4558F7202CD7EFF800E87F2E /* GradientStyles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,19 +270,30 @@
 			files = (
 				45EFD4EE2CD6A2F7009FD14E /* ContentView.swift in Sources */,
 				45EFD5042CD6AA38009FD14E /* Tiempo.swift in Sources */,
+				45EFD51D2CD7DFA8009FD14E /* PreviewData.swift in Sources */,
+				4558F71D2CD7EED400E87F2E /* CeldaTarea.swift in Sources */,
 				45EFD4F92CD6A4C3009FD14E /* Reproductor.swift in Sources */,
 				45EFD50E2CD6BA87009FD14E /* Datos.swift in Sources */,
+				4558F71F2CD7EF2500E87F2E /* Tareas.swift in Sources */,
+				4558F7232CD7F46D00E87F2E /* CapsulaImportante.swift in Sources */,
+				45EFD5152CD78FA9009FD14E /* ListaDeTareas.swift in Sources */,
 				45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */,
+				4558F7212CD7EFF800E87F2E /* GradientStyles.swift in Sources */,
 				45EFD5122CD78BA4009FD14E /* ListadoPrevisionDias.swift in Sources */,
 				45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */,
+				4558F71B2CD7EB0800E87F2E /* MainManu.swift in Sources */,
 				45EFD4F32CD6A30C009FD14E /* Home.swift in Sources */,
+				45EFD5182CD792DB009FD14E /* DatosTareas.swift in Sources */,
 				45EFD5072CD6AD21009FD14E /* Fonts.swift in Sources */,
 				45EFD50B2CD6B9C7009FD14E /* PrevisionPorHoras.swift in Sources */,
+				45EFD5202CD7E2B9009FD14E /* ButtonStyles.swift in Sources */,
 				45EFD4FD2CD6A4EE009FD14E /* CaratulaAlbum.swift in Sources */,
 				45EFD5102CD78A26009FD14E /* PrevisionPorDias.swift in Sources */,
+				4558F7252CD7F49700E87F2E /* InformacionTarea.swift in Sources */,
 				45EFD4EF2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift in Sources */,
 				45EFD5012CD6A513009FD14E /* NavegacionSuperior.swift in Sources */,
 				45EFD5092CD6B3F1009FD14E /* InfoActual.swift in Sources */,
+				45EFD51A2CD7DF3F009FD14E /* TareaDetalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

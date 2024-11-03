@@ -22,6 +22,10 @@ struct ContentView: View {
 				.tabItem {
 					Label("Tiempo", systemImage: "degreesign.celsius")
 				}
+			ListaDeTareas()
+				.tabItem {
+					Label("Tareas", systemImage: "list.bullet.rectangle")
+				}
 		}
 		.tint(.black)
     }
