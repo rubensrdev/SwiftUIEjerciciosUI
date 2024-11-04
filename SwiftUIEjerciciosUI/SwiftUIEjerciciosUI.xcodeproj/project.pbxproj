@@ -13,6 +13,9 @@
 		4558F7212CD7EFF800E87F2E /* GradientStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7202CD7EFF800E87F2E /* GradientStyles.swift */; };
 		4558F7232CD7F46D00E87F2E /* CapsulaImportante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7222CD7F46D00E87F2E /* CapsulaImportante.swift */; };
 		4558F7252CD7F49700E87F2E /* InformacionTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7242CD7F49700E87F2E /* InformacionTarea.swift */; };
+		4558F7282CD7F75400E87F2E /* PerfilDeUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F7272CD7F75400E87F2E /* PerfilDeUsuario.swift */; };
+		4558F72F2CD934F700E87F2E /* FontsStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4558F72E2CD934F700E87F2E /* FontsStyles.swift */; };
+		4558F7342CD93D1600E87F2E /* Prototype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4558F7332CD93D1600E87F2E /* Prototype.ttf */; };
 		45EFD4EE2CD6A2F7009FD14E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4EB2CD6A2F7009FD14E /* ContentView.swift */; };
 		45EFD4EF2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFD4EC2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift */; };
 		45EFD4F02CD6A2F7009FD14E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */; };
@@ -44,6 +47,10 @@
 		4558F7202CD7EFF800E87F2E /* GradientStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStyles.swift; sourceTree = "<group>"; };
 		4558F7222CD7F46D00E87F2E /* CapsulaImportante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulaImportante.swift; sourceTree = "<group>"; };
 		4558F7242CD7F49700E87F2E /* InformacionTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionTarea.swift; sourceTree = "<group>"; };
+		4558F7272CD7F75400E87F2E /* PerfilDeUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDeUsuario.swift; sourceTree = "<group>"; };
+		4558F72E2CD934F700E87F2E /* FontsStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsStyles.swift; sourceTree = "<group>"; };
+		4558F7302CD9388400E87F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4558F7332CD93D1600E87F2E /* Prototype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prototype.ttf; sourceTree = "<group>"; };
 		45EFD4D32CD6A201009FD14E /* SwiftUIEjerciciosUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEjerciciosUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EFD4E82CD6A2F7009FD14E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4558F7262CD7F73B00E87F2E /* UI4 */ = {
+			isa = PBXGroup;
+			children = (
+				4558F72D2CD934E700E87F2E /* Styles */,
+				4558F7272CD7F75400E87F2E /* PerfilDeUsuario.swift */,
+			);
+			path = UI4;
+			sourceTree = "<group>";
+		};
+		4558F72D2CD934E700E87F2E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4558F72E2CD934F700E87F2E /* FontsStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		45EFD4CA2CD6A201009FD14E = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +132,17 @@
 		45EFD4ED2CD6A2F7009FD14E /* SwiftUIEjerciciosUI */ = {
 			isa = PBXGroup;
 			children = (
+				4558F7302CD9388400E87F2E /* Info.plist */,
+				4558F7262CD7F73B00E87F2E /* UI4 */,
 				45EFD5132CD78E9D009FD14E /* UI3 */,
 				45EFD5022CD6AA2B009FD14E /* UI2 */,
 				45EFD4F72CD6A4B7009FD14E /* UI1 */,
 				45EFD4E92CD6A2F7009FD14E /* Preview Content */,
-				45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */,
 				45EFD4EB2CD6A2F7009FD14E /* ContentView.swift */,
 				45EFD4F22CD6A30C009FD14E /* Home.swift */,
 				45EFD4EC2CD6A2F7009FD14E /* SwiftUIEjerciciosUIApp.swift */,
+				45EFD4EA2CD6A2F7009FD14E /* Assets.xcassets */,
+				4558F7332CD93D1600E87F2E /* Prototype.ttf */,
 			);
 			path = SwiftUIEjerciciosUI;
 			sourceTree = "<group>";
@@ -258,6 +285,7 @@
 			files = (
 				45EFD4F02CD6A2F7009FD14E /* Preview Assets.xcassets in Resources */,
 				45EFD4F12CD6A2F7009FD14E /* Assets.xcassets in Resources */,
+				4558F7342CD93D1600E87F2E /* Prototype.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +305,12 @@
 				4558F71F2CD7EF2500E87F2E /* Tareas.swift in Sources */,
 				4558F7232CD7F46D00E87F2E /* CapsulaImportante.swift in Sources */,
 				45EFD5152CD78FA9009FD14E /* ListaDeTareas.swift in Sources */,
+				4558F7282CD7F75400E87F2E /* PerfilDeUsuario.swift in Sources */,
 				45EFD4FB2CD6A4DD009FD14E /* Botonera.swift in Sources */,
 				4558F7212CD7EFF800E87F2E /* GradientStyles.swift in Sources */,
 				45EFD5122CD78BA4009FD14E /* ListadoPrevisionDias.swift in Sources */,
 				45EFD4FF2CD6A4F8009FD14E /* InfoCancion.swift in Sources */,
+				4558F72F2CD934F700E87F2E /* FontsStyles.swift in Sources */,
 				4558F71B2CD7EB0800E87F2E /* MainManu.swift in Sources */,
 				45EFD4F32CD6A30C009FD14E /* Home.swift in Sources */,
 				45EFD5182CD792DB009FD14E /* DatosTareas.swift in Sources */,
@@ -430,6 +460,7 @@
 				DEVELOPMENT_TEAM = 8MU6QHY59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIEjerciciosUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +490,7 @@
 				DEVELOPMENT_TEAM = 8MU6QHY59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIEjerciciosUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
