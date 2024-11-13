@@ -22,10 +22,15 @@ struct ContentView: View {
 				.tabItem {
 					Label("Tiempo", systemImage: "degreesign.celsius")
 				}
+            PerfilDeUsuario()
+                .tabItem {
+                    Label("Perfil de Usuario", systemImage: "person.fill")
+                }
 			ListaDeTareas()
 				.tabItem {
 					Label("Lista de Tareas", systemImage: "list.bullet.rectangle")
 				}
+            
 		}
 		.tint(.black)
     }
